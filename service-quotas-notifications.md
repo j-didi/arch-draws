@@ -7,3 +7,6 @@ Um exemplo é o limite de 1.000 instâncias de Lambdas em execução simultânea
 Por isso, é crucial monitorar esses limites e planejar ações preventivas. Se os valores se aproximarem do limite, você pode, por exemplo, solicitar à AWS um aumento dessa cota.
 
 Felizmente, ferramentas como o AWS Service Quotas facilitam esse acompanhamento. Você pode criar alarmes do CloudWatch para notificações automáticas, garantindo que sua equipe seja alertada o quanto antes.
+
+## Arquitetura
+![alt text](./gifs/service-quotas-notifications.gif)

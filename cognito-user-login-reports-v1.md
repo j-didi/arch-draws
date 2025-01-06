@@ -7,3 +7,6 @@ Muitas empresas já utilizam o Cognito para prover autenticação para seus micr
 Porém o Cognito não entrega relatórios sobre logins, e algumas empresas precisam desses dados para análises de segurança ou até mesmo para monitorar o uso da plataforma. Então, como entregar essa funcionalidade de forma simple e sem impactar a performance do login na sua aplicação?
 
 Uma opção simples é direcionar os logs do Cognito, que incluem eventos de login, para o CloudWatch Logs. A partir daí, você pode utilizar o CloudWatch Log Insights, por exemplo via Lambda, para executar queries nos logs e processar os resultados.
+
+## Arquitetura
+![alt text](./gifs/cognito-user-login-reports-v1.gif)

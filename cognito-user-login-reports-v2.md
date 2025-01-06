@@ -13,3 +13,6 @@ Ao utilizar o Athena precisamos considerar sua natureza assíncrona de resoluç�
 
 ### 4. Comunicação com URL temporária
 Com a Lambda podemos gerar uma URL temporária para o relatório no S3 e posteriormente encaminhar em algum canal de notificação, por exemplo via email utilizando o SES. 
+
+## Arquitetura
+![alt text](./gifs/cognito-user-login-reports-v2.gif)

@@ -7,3 +7,6 @@ Empresas enfrentam esse desafio com estratégias de redundância entre regiões:
 Uma opção é via Route 53, serviço de DNS da AWS, configurar regras de roteamento baseadas em health checks, que monitoram a saúde do sistema, e caso a região principal falhe, o cliente é automaticamente redirecionado para outra região via resolução de DNS.
 
 Nesse cenário, o tempo de TTL do cache de DNS é um fator crítico. É necessário equilibrar custos e throughput com a agilidade necessária para o failover.
+
+## Arquitetura
+![alt text](./gifs/dns-routing-active-passive.gif)
